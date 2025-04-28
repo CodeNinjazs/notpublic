@@ -46,4 +46,3 @@ function updateParticles() {
 for (let i = 0; i < 100; i++) {
     createParticle();
 }
-updateParticles();
