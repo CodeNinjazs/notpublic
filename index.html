@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Bar Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tab-bar">
+        <div class="tab" onclick="showPage('home')">Home</div>
+        <div class="tab" onclick="showPage('games')">Games</div>
+        <div class="tab" onclick="showPage('others')">Others</div>
+        <div class="tab" onclick="showPage('credits')">Credits</div>
+    </div>
+
+    <div id="home" class="page active">
+        <h1>Home</h1>
+    </div>
+    <div id="games" class="page">
+        <h1>Games</h1>
+    </div>
+    <div id="others" class="page">
+        <h1>Others</h1>
+    </div>
+    <div id="credits" class="page">
+        <h1>Credits</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
