@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1a1a1a;
     color: white;
     overflow: hidden;
 }
@@ -44,20 +43,11 @@ h1 {
     margin-top: 20%;
 }
 
-/* Background animation */
-body::before {
-    content: '';
+canvas {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://www.transparenttextures.com/patterns/purty-wood.png'); /* Example texture */
-    opacity: 0.05;
-    animation: move 10s linear infinite;
-}
-
-@keyframes move {
-    from { background-position: 0 0; }
-    to { background-position: 100% 100%; }
+    z-index: 0;
 }
